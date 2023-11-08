@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LampLight</title>
+
+    <!-- swiper css -->
+
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
+
+    <!-- style css -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- REMIXICON -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="navbar" id="header">
+      <div class="logo" id="logo">LAMP<span>LIGHT</span></div>
+
+      <div class="navmenu" id="nav-menu">
+        <ul id="navlist">
+          <li><a href="#home" class="navhome active">Home</a></li>
+          <li><a href="#popular" class="navpopular">Popular</a></li>
+          <li><a href="#feature" class="navfeatures">Features</a></li>
+          <li><a href="#product" class="navproducts">Products</a></li>
+        </ul>
+
+        <div class="btnclose" id="btn-close">
+          <i class="ri-close-fill"></i>
+        </div>
+      </div>
+
+      <div class="btnopen" id="btn-open">
+        <i class="ri-menu-fill"></i>
+      </div>
+    </header>
+
+    <!-- section 1 -->
+
+    <div class="main" id="home">
+      <div class="main-background"></div>
+      <div class="full-container">
+        <div class="main-container">
+          <div class="main-content">
+            <div class="content-heading">The best Lamp Store</div>
+
+            <div class="content-data">
+              <h1>Bright <span>HOME</span></h1>
+              <h1>Bright <span>LIFE</span></h1>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <button class="discoverbtn">
+              Explore <i class="ri-arrow-right-line"></i>
+            </button>
+            <button class="watchbtn">
+              Watch Now <i class="ri-play-circle-line" id="play"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class=" home-lamp">
+          <img src="IMAGES/mainlamp-removebg-preview.png" alt="" />
+        </div>
+      </div>
+
+      <!-- <section class="frame1">
+        <div class="bulb" id="bulb">
+          <img id="bulb-rod" src="IMAGES/bulb-rod.png" alt=" " />
+          <img id="bulb-on" src="IMAGES/bulb_on.png" alt=" " />
+          <img id="bulb-off" src="IMAGES/bulb_off.png" alt=" " />
+        </div>
+      </section> -->
+    </div>
+
+    <!-- section 2 -->
+
+    <section class="popular" id="popular">
+      <div class="popular-container">
+        <div class="popular-container-heading">
+          <h1 class="dash"><i class="ri-subtract-line"></i></h1>
+          <h3 class="popular-container-heading-data">Popular Products</h3>
+          <p class="popular-container-description">
+            variety of quality products to make your home unique
+          </p>
+        </div>
+
+        <div class="popular-images swiper">
+          <div class="popular-wrapper swiper-wrapper">
+            <div class="popular-card swiper-slide">
+              <div class="popular-image">
+                <img src="IMAGES/lamp1.png" alt="" />
+              </div>
+
+              <div class="popular-content">
+                <h3 class="popular-heading">Round Lamp</h3>
+                <p class="popular-description">irish Ceiling Lamp</p>
+                <h4 class="popular-price">$ <span>40</span></h4>
+                <button class="popular-button">
+                  <i class="ri-add-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="popular-card swiper-slide">
+              <div class="popular-image">
+                <img src="IMAGES/lamp2.png" alt="" />
+              </div>
+
+              <div class="popular-content">
+                <h3 class="popular-heading">Classic Lamp</h3>
+                <p class="popular-description">matte-black finish</p>
+                <h4 class="popular-price">$ <span>28</span></h4>
+                <button class="popular-button">
+                  <i class="ri-add-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="popular-card swiper-slide">
+              <div class="popular-image">
+                <img src="IMAGES/lamp3.png" alt="" />
+              </div>
+
+              <div class="popular-content">
+                <h3 class="popular-heading">Champ Lamp</h3>
+                <p class="popular-description">golden light finish</p>
+                <h4 class="popular-price">$ <span>34</span></h4>
+                <button class="popular-button">
+                  <i class="ri-add-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="popular-card swiper-slide">
+              <div class="popular-image">
+                <img src="IMAGES/lamp4.png" alt="" />
+              </div>
+
+              <div class="popular-content">
+                <h3 class="popular-heading">Luxury Lamp</h3>
+                <p class="popular-description">matte-black finish</p>
+                <h4 class="popular-price">$ <span>30</span></h4>
+                <button class="popular-button">
+                  <i class="ri-add-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="popular-card swiper-slide">
+              <div class="popular-image">
+                <img src="IMAGES/lamp5.png" alt="" />
+              </div>
+
+              <div class="popular-content">
+                <h3 class="popular-heading">Modern Lamp</h3>
+                <p class="popular-description">copper wire finish</p>
+                <h4 class="popular-price">$ <span>38</span></h4>
+                <button class="popular-button">
+                  <i class="ri-add-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="ri-arrow-left-s-line"></i>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 -->
+
+    <section id="feature">
+      <div class="features-container" >
+        <div class="feature-image">
+          <div class="image-wrapper">
+            <div class="lamp-image feature-lamp">
+              <img src="IMAGES/mainlamp-removebg-preview.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-content">
+          <div class="content-wrapper">
+            <div class="content-heading">
+              <h1><i class="ri-subtract-line"></i></h1>
+              <div class="content-headingname">
+                <h1>Latest Features</h1>
+              </div>
+              <div class="content-description">
+                <p>
+                  We provide Lamps with unique and useful features that makes
+                  your life easy
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-button">
+              <div class="button-wrapper">
+                <div class="feature-btn">
+                  <p>Voice <br />Assistant</p>
+                </div>
+
+                <div class="feature-btn">
+                  <p>Intensity <br />Control</p>
+                </div>
+
+                <div class="feature-btn">
+                  <p>Changable <br />Colors</p>
+                </div>
+
+                <div class="feature-btn">
+                  <p>Adjustable <br />Length</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="product">
+      <div class="product">
+      <div class="product-container">
+        <div class="product-header">
+          <div class="product-heading"><h1>- Products -</h1></div>
+          <div class="product-description">
+            We make variety of products that matches your Home Design
+          </div>
+        </div>
+      </div>
+      <div class="products-wrapper">
+        <div class="products popular-card">
+          <div class="popular-image">
+            <img src="IMAGES/lamp1.png" alt="" />
+          </div>
+
+          <div class="popular-content">
+            <h3 class="popular-heading">Round Lamp</h3>
+            <p class="popular-description">irish Ceiling Lamp</p>
+            <h4 class="popular-price">$ <span>40</span></h4>
+            <button class="popular-button">
+              <i class="ri-add-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+        <div class="popular-card swiper-slide">
+          <div class="popular-image">
+            <img src="IMAGES/lamp2.png" alt="" />
+          </div>
+
+          <div class="popular-content">
+            <h3 class="popular-heading">Classic Lamp</h3>
+            <p class="popular-description">matte-black finish</p>
+            <h4 class="popular-price">$ <span>28</span></h4>
+            <button class="popular-button">
+              <i class="ri-add-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="popular-card swiper-slide">
+          <div class="popular-image">
+            <img src="IMAGES/lamp3.png" alt="" />
+          </div>
+
+          <div class="popular-content">
+            <h3 class="popular-heading">Champ Lamp</h3>
+            <p class="popular-description">golden light finish</p>
+            <h4 class="popular-price">$ <span>34</span></h4>
+            <button class="popular-button">
+              <i class="ri-add-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+        <div class="products popular-card">
+          <div class="popular-image">
+            <img src="IMAGES/lamp1.png" alt="" />
+          </div>
+
+          <div class="popular-content">
+            <h3 class="popular-heading">Round Lamp</h3>
+            <p class="popular-description">irish Ceiling Lamp</p>
+            <h4 class="popular-price">$ <span>40</span></h4>
+            <button class="popular-button">
+              <i class="ri-add-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="popular-card swiper-slide">
+          <div class="popular-image">
+            <img src="IMAGES/lamp4.png" alt="" />
+          </div>
+
+          <div class="popular-content">
+            <h3 class="popular-heading">Luxury Lamp</h3>
+            <p class="popular-description">matte-black finish</p>
+            <h4 class="popular-price">$ <span>30</span></h4>
+            <button class="popular-button">
+              <i class="ri-add-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="popular-card swiper-slide">
+          <div class="popular-image">
+            <img src="IMAGES/lamp5.png" alt="" />
+          </div>
+
+          <div class="popular-content">
+            <h3 class="popular-heading">Modern Lamp</h3>
+            <p class="popular-description">copper wire finish</p>
+            <h4 class="popular-price">$ <span>38</span></h4>
+            <button class="popular-button">
+              <i class="ri-add-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+        <div class="popular-card swiper-slide">
+          <div class="popular-image">
+            <img src="IMAGES/lamp2.png" alt="" />
+          </div>
+
+          <div class="popular-content">
+            <h3 class="popular-heading">Classic Lamp</h3>
+            <p class="popular-description">matte-black finish</p>
+            <h4 class="popular-price">$ <span>28</span></h4>
+            <button class="popular-button">
+              <i class="ri-add-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+        <div class="popular-card swiper-slide">
+          <div class="popular-image">
+            <img src="IMAGES/lamp4.png" alt="" />
+          </div>
+
+          <div class="popular-content">
+            <h3 class="popular-heading">Luxury Lamp</h3>
+            <p class="popular-description">matte-black finish</p>
+            <h4 class="popular-price">$ <span>30</span></h4>
+            <button class="popular-button">
+              <i class="ri-add-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-container-wrapper">
+          <div class="footer-header">
+            <div class="footer-heading">
+              <h3>Lamp<span>Light</span></h3>
+            </div>
+            <div class="footer-description">
+              <p>
+                Our primary goal is to make lamps which can have a perfect
+                design for your home
+              </p>
+            </div>
+          </div>
+          <div class="footer-wrapper">
+            <div class="footer-content">
+              <div class="footer-about f-content">
+                <h4 class="about-heading">About</h4>
+                <div class="about-content">
+                  <p>About us</p>
+                  <p>features</p>
+                  <p>blog</p>
+                </div>
+              </div>
+              <div class="footer-why f-content">
+                <h4 class="choose-heading">Why Choose Us</h4>
+                <div class="choose-content">
+                  <p>Why LampLight</p>
+                  <p>Support Us</p>
+                </div>
+              </div>
+              <div class="footer-company f-content">
+                <h4 class="company-heading">Company</h4>
+                <p>Management</p>
+                <p>Capital</p>
+                <p>Security</p>
+              </div>
+              <div class="footer-follow f-content">
+                <h4 class="follow-heading">Follow Us</h4>
+                <div class="follow-wrapper">
+                <div class="insta"><i class="ri-instagram-line"></i></div>
+                <div class="facebook"><i class="ri-facebook-box-line"></i></div>
+                <div class="twitter"><i class="ri-twitter-line"></i></div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copywright">
+          <div class="footer-terms-wrapper">
+            <div class="footer-terms">
+              <p>terms & Conditions</p>
+            </div>
+            <div class="footer-policy">
+              <p>Privacy Policy</p>
+            </div>
+          </div>
+          <div class="footer-copywright-content">
+            <p>&copy Copyright TalhaCodes.All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="JAVASCRIPT/scrollreveal.min.js"></script>
+    <script src="JAVASCRIPT/swiper-bundle.min.js"></script>
+    <script src="JAVASCRIPT/script.js"></script>
+  </body>
+</html>
